@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:555 LED Chaser-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -136,8 +136,8 @@ L Device:C C2
 U 1 1 5C7EFC91
 P 2650 4050
 F 0 "C2" H 2765 4096 50  0000 L CNN
-F 1 "0.01μ" H 2765 4005 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 2688 3900 50  0001 C CNN
+F 1 "0.01μF" H 2765 4005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2688 3900 50  0001 C CNN
 F 3 "~" H 2650 4050 50  0001 C CNN
 	1    2650 4050
 	1    0    0    -1  
@@ -405,12 +405,8 @@ F 3 "~" H 7000 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7150 4550 7700 4550
-Wire Wire Line
 	7700 4550 7700 4250
 Connection ~ 7700 4250
-Wire Wire Line
-	6850 4550 5900 4550
 Wire Wire Line
 	5900 4550 5900 4300
 Connection ~ 5900 4300
@@ -453,4 +449,8 @@ Wire Wire Line
 Connection ~ 2050 1650
 Wire Wire Line
 	3250 1650 5900 1650
+Wire Wire Line
+	5900 4550 6850 4550
+Wire Wire Line
+	7150 4550 7700 4550
 $EndSCHEMATC
